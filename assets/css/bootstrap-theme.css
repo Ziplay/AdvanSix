@@ -7,6 +7,12 @@
 	.navbar-inverse {  background:rgba(17,53,76,0.9); }
 }
 
+.nav_btn{
+	padding : 15px;
+}
+
+
+.nav_btn,
 .navbar-inverse .navbar-nav > li > a,
 .navbar-inverse .navbar-nav > .open ul > a { color:rgba(255, 255, 255, .4); }
 
@@ -15,14 +21,15 @@
 .navbar-inverse .navbar-nav > .active > a:focus { color: #fff; background:none ; }
 .navbar-inverse .navbar-nav > .open > a{ background:none; color:white; }
 
+.nav_btn:hover,
 .navbar-inverse .navbar-nav>li>a:hover, 
 .navbar-inverse .navbar-nav>li>a:focus,
 .navbar-inverse .navbar-nav>.open>a:hover, 
-.navbar-inverse .navbar-nav>.open>a:focus { background:none; color:white; }
+.navbar-inverse .navbar-nav>.open>a:focus { background:none; color:white; cursor: pointer}
 
 .navbar-inverse .navbar-nav > .active > a { background:none; color:white; }
 
-.navbar-inverse .navbar-brand { font-family: "Open sans", helvetica, arial; font-size: 24px; color:white; padding:0 0 0 15px; margin:12px 0 0 0; }
+.navbar-inverse .navbar-brand { font-family: Verdana; font-size: 24px; color:white; padding:0 0 0 15px; margin:12px 0 0 0; }
 	.navbar-inverse .navbar-brand img { margin-top:-8px;}
 
 .navbar-nav .dropdown-menu {

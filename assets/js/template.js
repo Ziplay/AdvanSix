@@ -10,4 +10,10 @@ jQuery(document).ready(function($) {
 		}
 	});
 
+	$(".nav_btn").click(function(){
+		var part = $(this).attr("id");
+		console.log(part);
+		var speed = 2000; // Durée de l'animation (en ms)
+		$('html, body').animate( { scrollTop: $("#partie_"+part).offset().top }, speed );
+	});
 });
