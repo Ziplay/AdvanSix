@@ -1,1 +1,0 @@
-console.log("import gestions.js ok");
