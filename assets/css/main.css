@@ -60,9 +60,31 @@ img.pull-left { margin-right: 10px; }
 /*Equipe*/
 nomEquipe {color: #11354C;font-weight:bold;font-size:22px;}
 roleEquipe {color: #11354C;font-size:18px}
-texte {font-size:16px}
+texteEquipe {font-size:16px}
 
+.bordure{
+	height: 1.5px;
+	margin: 20px;
+	border: none;
+	background-color: rgba(0, 0, 0, 0.12);
+}
+.orange{
+		width: 100px;
+		height: 3px;
+		margin: 20px auto;
+		display: flex;
+		border-radius: 5px;
+		background-color: #ffa000;
+}
 
+.imgEquipe{
+	width : 250px;
+	border-radius: 25px;
+}
+
+.droite{
+	text-align: right;
+}
 /*Cursus*/
 @media (max-width: 800px) {
 	.imgCursus{
