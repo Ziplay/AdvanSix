@@ -57,6 +57,29 @@ img.pull-left { margin-right: 10px; }
 /* Main content block */
 .maincontent { }
 
+/*Cursus*/
+@media (max-width: 800px) {
+	.imgCursus{
+		padding-top: 5%;
+	}
+	.imgCTI{
+		width:20%
+	}
+	.img2i{
+		width: 30%;
+	}
+}
+@media (min-width: 1000px) {
+	.imgCursus{
+		padding-top: 80%;
+	}
+	.imgCTI{
+		width:60%
+	}
+	.img2i{
+		width: 85%;
+	}
+}
 /* Sidebars */
 .sidebar { padding-top:36px; padding-bottom:30px; }
 	.sidebar .widget { margin-bottom:20px; }
