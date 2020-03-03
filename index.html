@@ -9,8 +9,8 @@
 	<link rel="shortcut icon" href="assets/images/logo_A6.svg">
 	
 	<!-- <link rel="stylesheet" media="screen" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700"> -->
-	<link rel="stylesheet" href="./AdvanSix-2i_files/bootstrap.min.css">
-	<link rel="stylesheet" href="./AdvanSix-2i_files/font-awesome.min.css">
+	<link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="./assets/css/font-awesome.min.css">
 
 	<!-- Custom styles for our template -->
 	<link rel="stylesheet" href="assets/css/bootstrap-theme.css" media="screen" >
@@ -102,8 +102,8 @@
 			<br>
 			<div class="col-md-2 widget">
 				<div class="imgCursus text-center">
-					<img src="./AdvanSix-2i_files/logo.png" class="imgCTI"><br>
-					<img src="./AdvanSix-2i_files/2ilogo.png" class="img2i">
+					<img src="./assets/images/logo.png" class="imgCTI"><br>
+					<img src="./assets/images/2ilogo.png" class="img2i">
 				</div>
 			</div>
 			<div class="col-md-10 widget">
@@ -253,48 +253,10 @@
 	</footer>
 
 	<!-- JavaScript libs are placed at the end of the document so the pages load faster -->
-	<script src="./AdvanSix-2i_files/jquery.min.js.téléchargement"></script>
-	<script src="./AdvanSix-2i_files/bootstrap.min.js.téléchargement"></script>
-	<script src="./AdvanSix-2i_files/headroom.min.js.téléchargement"></script>
-	<script src="./AdvanSix-2i_files/jQuery.headroom.min.js.téléchargement"></script>
-	<script src="./AdvanSix-2i_files/template.js.téléchargement"></script>
-<!-- Code injected by live-server -->
-<script type="text/javascript">
-	// <![CDATA[  <-- For SVG support
-	if ('WebSocket' in window) {
-		(function () {
-			function refreshCSS() {
-				var sheets = [].slice.call(document.getElementsByTagName("link"));
-				var head = document.getElementsByTagName("head")[0];
-				for (var i = 0; i < sheets.length; ++i) {
-					var elem = sheets[i];
-					var parent = elem.parentElement || head;
-					parent.removeChild(elem);
-					var rel = elem.rel;
-					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
-						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
-						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
-					}
-					parent.appendChild(elem);
-				}
-			}
-			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
-			var address = protocol + window.location.host + window.location.pathname + '/ws';
-			var socket = new WebSocket(address);
-			socket.onmessage = function (msg) {
-				if (msg.data == 'reload') window.location.reload();
-				else if (msg.data == 'refreshcss') refreshCSS();
-			};
-			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
-				console.log('Live reload enabled.');
-				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
-			}
-		})();
-	}
-	else {
-		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
-	}
-	// ]]>
-</script>
+	<script src="./assets/js/jquery.min.js"></script>
+	<script src="./assets/js/bootstrap.min.js"></script>
+	<script src="./assets/js/headroom.min.js"></script>
+	<script src="./assets/js/jQuery.headroom.min.js"></script>
+	<script src="./assets/js/template.js"></script>
 
 </body></html>
