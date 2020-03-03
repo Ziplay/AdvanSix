@@ -64,8 +64,8 @@ texteEquipe {font-size:16px}
 
 .bordure{
 	height: 1.5px;
-	margin: 20px;
-	border: none;
+	margin: 30px;
+	border-radius: 5px;
 	background-color: rgba(0, 0, 0, 0.12);
 }
 .orange{
@@ -73,17 +73,18 @@ texteEquipe {font-size:16px}
 		height: 3px;
 		margin: 20px auto;
 		display: flex;
-		border-radius: 5px;
-		background-color: #ffa000;
+		border-radius: 15px;
+		background-color: #E3B747;
 }
 
 .imgEquipe{
-	width : 250px;
-	border-radius: 25px;
+	width : 750px;
+	border-radius: 50px;
 }
 
-.droite{
-	text-align: right;
+.imgPerso{
+	width : 100px;
+	border-radius: 25px;
 }
 /*Cursus*/
 @media (max-width: 800px) {
