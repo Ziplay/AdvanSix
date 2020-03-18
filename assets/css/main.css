@@ -40,6 +40,16 @@
 	margin-top : 4%;
 }
 
+
+.small{
+	display: block;
+}
+.container.custom_container{
+	padding :0;
+	margin :0;
+	width : 100%;
+}
+
 /* Autohide navbar */
 .slideUp { top:-100px; }
 .headroom { -webkit-transition: all 0.4s ease-out; -moz-transition: all 0.4s ease-out; -o-transition: all 0.4s ease-out; transition: all 0.4s ease-out; }
@@ -113,7 +123,6 @@ texteEquipe {font-size:16px;}
 	margin-left : 15px;
 	margin-bottom : 8px;
 	width : 25px;
-	display : none;
 }
 
 .imgPerso{
@@ -143,6 +152,12 @@ texteEquipe {font-size:16px;}
 		width : 100%;
 	}
 }
+
+
+.small{
+	display: block;
+}
+
 @media (min-width: 801px) and (max-width: 992px){
 	.imgCursus{
 		padding-top: 80%;
@@ -159,9 +174,7 @@ texteEquipe {font-size:16px;}
 	.small{
 		display: block;
 	}
-	.container.custom_container{
 
-	}
 }
 @media (min-width: 993px) {
 	.imgCursus{
@@ -179,9 +192,7 @@ texteEquipe {font-size:16px;}
 	.small{
 		display: none;
 	}
-	.container.custom_container{
 
-	}
 }
 
 /* Planning*/
