@@ -26,27 +26,10 @@
 }
 
 
+
 @media (max-width: 767px) {
 	#head { min-height:420px; padding-top:160px; }
 	#head .lead { font-size: 34px; }
-	.container.custom_container{
-		padding :0;
-		margin :0;
-		width : 100%;
-	}
-}
-
-.frise{
-	max-width: 75%;
-	display : block;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top : 4%;
-}
-
-
-.small{
-	display: block;
 }
 
 
@@ -64,7 +47,6 @@
 
 
 /* Typography */
-h1, h2 {color: #11354C;}
 h1, h2, h3, h4, h5, h6, nomEquipe, roleEquipe, .texteEquipe { font-family: Verdana;}
 h3, h4, h5, h6 { text-align: justify;}
 h1, .h1, h2, .h2, h3, .h3 { margin-top:30px; } 
@@ -75,7 +57,6 @@ label { color: #777; }
 .text-muted { color:#888; }
 .breadcrumb { background:none; padding:0; margin:30px 0 0px 0; }
 ul.list-spaces li{ margin-bottom:10px; }
-
 
 /* Helpers */
 .container-full { margin: 0 auto; width: 100%; }
@@ -123,14 +104,13 @@ texteEquipe {font-size:16px;}
 	margin-left : 15px;
 	margin-bottom : 8px;
 	width : 25px;
-	display : none;
 }
 
 .imgPerso{
-	width : 85px;
+	width : 100px;
 	border-radius: 25px;
-	/*margin-top : 100%;*/
-	transform: translateY(-10%);
+	margin-top : 100%;
+	transform: translateY(-50%);
 }
 /*Cursus*/
 @media (max-width: 800px) {
@@ -142,6 +122,15 @@ texteEquipe {font-size:16px;}
 	}
 	.img2i{
 		width: 30%;
+	}
+
+	.small{
+		display: block;
+	}
+	.container.custom_container{
+		padding :0;
+		margin :0;
+		width : 100%;
 	}
 }
 @media (min-width: 801px) and (max-width: 992px){
@@ -157,6 +146,9 @@ texteEquipe {font-size:16px;}
 	.case_pres{
 		height : 20vh;
 	}
+	.small{
+		display: block;
+	}
 }
 @media (min-width: 993px) {
 	.imgCursus{
@@ -169,19 +161,12 @@ texteEquipe {font-size:16px;}
 		width: 100%;
 	}
 	.case_pres{
-		/*height : 10vh;*/
+		height : 35vh;
 	}
 	.small{
 		display: none;
 	}
 }
-
-/* Planning*/
-.titreBleu{color :#11354C;}
-.intituleBleu{color : #296E9A;}
-.titreOrange{color : #E3B747;}
-.intituleOrange{color : #FFCB47;}
-
 /* Sidebars */
 .sidebar { padding-top:36px; padding-bottom:30px; }
 	.sidebar .widget { margin-bottom:20px; }
@@ -200,6 +185,12 @@ texteEquipe {font-size:16px;}
 		.follow-me-icons i { float:left; margin:0 10px 0 0; }		
 
 .footer2 { background: #191919; padding: 15px 0; color: #777; font-size: 12px; }
+	.footer2 a { color: #aaa; }
+		.footer2 a:hover { color: #fff; }
+		.footer2 p { margin: 0; }
+
+	.widget-simplenav { margin-left:-5px; }		
+	.widget-simplenav a{ margin:0 5px; }		font-size: 12px; }
 	.footer2 a { color: #aaa; }
 		.footer2 a:hover { color: #fff; }
 		.footer2 p { margin: 0; }
