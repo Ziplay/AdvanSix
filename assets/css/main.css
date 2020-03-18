@@ -23,7 +23,6 @@
 
 .texteEquipe{
 	padding-bottom: 0;
-	display : none;
 }
 
 
@@ -118,10 +117,10 @@ texteEquipe {font-size:16px;}
 }
 
 .imgPerso{
-	width : 85px;
+	width : 100px;
 	border-radius: 25px;
-	/*margin-top : 100%;*/
-	transform: translateY(-10%);
+	margin-top : 100%;
+	transform: translateY(-50%);
 }
 /*Cursus*/
 @media (max-width: 800px) {
@@ -175,7 +174,7 @@ texteEquipe {font-size:16px;}
 		width: 100%;
 	}
 	.case_pres{
-		/*height : 10vh;*/
+		height : 20vh;
 	}
 	.small{
 		display: none;
