@@ -48,11 +48,7 @@
 .small{
 	display: block;
 }
-.container.custom_container{
-	padding :0;
-	margin :0;
-	width : 100%;
-}
+
 
 /* Autohide navbar */
 .slideUp { top:-100px; }
@@ -174,15 +170,9 @@ texteEquipe {font-size:16px;}
 	}
 	.case_pres{
 		/*height : 10vh;*/
-<<<<<<< HEAD
-=======
 	}
 	.small{
 		display: none;
-	}
-	.container.custom_container{
-
->>>>>>> parent of 3901020... j
 	}
 }
 
