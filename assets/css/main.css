@@ -112,6 +112,20 @@ texteEquipe {font-size:16px;}
 	margin-top : 100%;
 	transform: translateY(-50%);
 }
+
+.frise{
+	max-width: 75%;
+	display : block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top : 4%;
+}
+/* Planning*/
+.titreBleu{color :#11354C;}
+.intituleBleu{color : #296E9A;}
+.titreOrange{color : #E3B747;}
+.intituleOrange{color : #FFCB47;}
+
 /*Cursus*/
 @media (max-width: 800px) {
 	.imgCursus{
