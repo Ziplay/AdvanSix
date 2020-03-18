@@ -125,6 +125,13 @@ texteEquipe {font-size:16px}
 		width: 100%;
 	}
 }
+
+/* Planning*/
+.titreBleu{color :#11354C;}
+.intituleBleu{color : #296E9A;}
+.titreOrange{color : #E3B747;}
+.intituleOrange{color : #FFCB47;}
+
 /* Sidebars */
 .sidebar { padding-top:36px; padding-bottom:30px; }
 	.sidebar .widget { margin-bottom:20px; }
