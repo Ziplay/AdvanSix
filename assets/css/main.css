@@ -30,11 +30,6 @@
 @media (max-width: 767px) {
 	#head { min-height:420px; padding-top:160px; }
 	#head .lead { font-size: 34px; }
-	.container.custom_container{
-		padding :0;
-		margin :0;
-		width : 100%;
-	}
 }
 
 .frise{
@@ -138,6 +133,15 @@ texteEquipe {font-size:16px;}
 	.img2i{
 		width: 30%;
 	}
+
+	.small{
+		display: block;
+	}
+	.container.custom_container{
+		padding :0;
+		margin :0;
+		width : 100%;
+	}
 }
 @media (min-width: 801px) and (max-width: 992px){
 	.imgCursus{
@@ -152,6 +156,12 @@ texteEquipe {font-size:16px;}
 	.case_pres{
 		height : 20vh;
 	}
+	.small{
+		display: block;
+	}
+	.container.custom_container{
+
+	}
 }
 @media (min-width: 993px) {
 	.imgCursus{
@@ -165,6 +175,12 @@ texteEquipe {font-size:16px;}
 	}
 	.case_pres{
 		height : 20vh;
+	}
+	.small{
+		display: none;
+	}
+	.container.custom_container{
+
 	}
 }
 
